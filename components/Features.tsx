@@ -54,7 +54,7 @@ export default function Features() {
                         features.map((feature, index) => (
 
 
-                            <div className="flex flex-col items-start p-6 border border-gray-200 space-y-2 rounded-lg shadow bg-dark">
+                            <div key={index} className="flex flex-col items-start p-6 border border-gray-200 space-y-2 rounded-lg shadow bg-dark">
                                 <feature.icon className="h-10 w-10 text-primary" />
                                 <a href="#">
                                     <h5 className="mb-2 text-xl font-semibold tracking-tight text-white">Need a help in Claim?</h5>
